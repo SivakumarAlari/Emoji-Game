@@ -1,0 +1,61 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+
+.emoji-game-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.emojis-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
+
+/* .main-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #6a59ff, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.emoji-body {
+  min-height: 90vh;
+  width: 100vw;
+  background: linear-gradient(to right, #6a59ff, #9796f0);
+  margin-top: 0px;
+  border: 0px;
+  border-width: 0px;
+}
+@media (max-width: 576px) {
+  .emoji-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+  }
+} */

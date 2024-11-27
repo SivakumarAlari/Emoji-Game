@@ -1,0 +1,196 @@
+/* Write your code here. */
+.win-or-lose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 24px;
+  margin: auto;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-card {
+    width: 80%;
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-card {
+    flex-direction: row;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-or-lose-card {
+    width: 60%;
+  }
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .details-section {
+    order: 0;
+  }
+}
+
+.game-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .game-status {
+    font-size: 64px;
+  }
+}
+
+.current-score-label {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .current-score-label {
+    font-size: 36px;
+  }
+}
+
+.current-score-value {
+  text-align: center;
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .current-score-value {
+    font-size: 48px;
+  }
+}
+
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .image-section {
+    order: 1;
+  }
+}
+
+.win-or-lose-image {
+  width: 150px;
+  height: 200px;
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-image {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+/* .winOrLose-container {
+  height: 75vh;
+  width: 60vw;
+  background-color: #9796f0;
+  border: groove;
+  box-shadow: 2px;
+  border-radius: 10px;
+  margin-left: 18vw;
+  margin-right: 18vw;
+  margin-top: 5vh;
+}
+
+.top-part-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-part-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-img-design {
+  height: 30vh;
+  width: 25vw;
+  margin-top: 15px;
+}
+.won-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: white;
+}
+#score-paragraph {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: white;
+}
+.count-score-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: yellow;
+}
+.click-btn-design {
+  height: 27px;
+  width: 115px;
+  background-color: yellow;
+  font-size: 16px;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 7px;
+}
+
+@media (min-width: 768px) {
+  .click-btn-design {
+    height: 35px;
+    width: 127px;
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 7px;
+  }
+} */

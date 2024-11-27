@@ -1,0 +1,125 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-logo {
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 48px;
+  }
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+.scores-container {
+  display: flex;
+}
+
+.score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 24px;
+    margin-left: 32px;
+  }
+}
+
+/* .navbarDesign {
+  height: 10vh;
+  width: 100vw;
+  background: linear-gradient(to right, #6a59ff, #9796f0);
+  border: groove;
+  margin: 0px;
+}
+
+.nav-main-container {
+  height: 10vh;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+}
+.imgDesign {
+  height: 38px;
+  width: 38px;
+  margin-right: 6px;
+}
+.game-heading {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: white;
+  font-weight: bold;
+}
+#paragraph {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: white;
+  margin-right: 7px;
+}
+
+@media (min-width: 768px) {
+  .imgDesign {
+    height: 60px;
+    width: 50px;
+    margin-right: 6px;
+    margin-top: 7px;
+  }
+  .game-heading {
+    font-size: 33px;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: bold;
+  }
+  #paragraph {
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 7px;
+  }
+} */
